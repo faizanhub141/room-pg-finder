@@ -1,17 +1,8 @@
-# Room-PG-Finder
 # Room & PG Finder
 
 A responsive web app for finding rooms, PGs and flats to rent. Tenants can search by city, budget and amenities, save places they like and message the owner. Owners can post their property with photos and see every enquiry in one place.
 
 Built with the MERN stack: MongoDB, Express, React and Node.js.
-
-## Screenshots
-
-Add your screenshots here after you take them in Chrome.
-
-| Home and search | Listing page | Owner dashboard |
-|---|---|---|
-| ![Home](screenshots/home.png) | ![Listing](screenshots/listing.png) | ![Dashboard](screenshots/dashboard.png) |
 
 ## Features
 
