@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { @apply bg-mist text-ink font-sans text-[17px] leading-relaxed; }
+h1, h2, h3 { @apply font-display leading-tight; }
+.input { @apply w-full rounded-lg border-2 border-slate-300 bg-white px-3 py-2 focus:border-petrol focus:outline-none; }
+.btn { @apply inline-flex items-center justify-center rounded-lg bg-petrol px-4 py-2 font-bold text-white hover:bg-petrol-dark disabled:opacity-50; }
+.btn-alt { @apply inline-flex items-center justify-center rounded-lg border-2 border-petrol px-4 py-2 font-bold text-petrol hover:bg-petrol hover:text-white disabled:opacity-40; }
+.board { background-image: repeating-linear-gradient(90deg, rgba(255,255,255,.05) 0 2px, transparent 2px 14px); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
